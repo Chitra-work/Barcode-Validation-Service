@@ -18,6 +18,7 @@ The following API endpoint is available:
 GET /validate?barcode={barcode}: Validates the provided barcode.
 
 GET http://localhost:8080/validate?barcode=AA473124829GB - Response true
+
 GET http://localhost:8080/validate?barcode=AA473124828GB - Response false
 
 Tests
